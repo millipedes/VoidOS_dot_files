@@ -12,7 +12,7 @@ Additionally note, the packages that will be installed are in `packages.txt`.
 This is bi-implicational though, so for your personal installation, please edit
 `packages.txt` to reflect the names of the packages you want installed. Note
 that if you start removing packages from this list, some things about the OS
-will not work as advertised
+will not work as advertised.
 
 When you have backed up your dot files and edited packages.txt to fit your
 needs, installation is completed using:
