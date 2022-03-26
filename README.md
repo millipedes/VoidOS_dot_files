@@ -29,6 +29,9 @@ I will attempt to give a good idea about what these dot files do here. I do not
 claim to have the perfect method of system management, but I have customized
 these settings for a long time and I notice that I perform best with them.
 
+Here is an image of a fresh install on a Lenovo Thinkpad T520:
+![testimage](./Pictures/test_image.png "Example Install')
+
 These files set up the working environment that I use for my daily work
 activites. The following are some system commends (mod is windows key in my
 config):
