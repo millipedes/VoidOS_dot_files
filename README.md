@@ -1,6 +1,5 @@
 # :floppy_disk: Installation
-## :exclamation:
-Please note, this isnstallation will write over `~/.config/`:
+:exclamation: Please note, this isnstallation will write over `~/.config/`:
 1) `i3`
 2) `kitty`
 3) `nvim`
