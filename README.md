@@ -1,4 +1,4 @@
-# Red Void
+# :no_entry_sign: Red Void
 ![testimage](./Pictures/test_image.png)
 The above is a screenshot of these files applied to a Lenovo T520 Laptop.  I
 have been writing a number of these files for a while and wanted to make a
@@ -34,7 +34,7 @@ this script to fail or cause any problems (at least on all my machines).
 
 # :sunny: Explanation of Dot Files
 
-## Summary
+## :scroll: Summary
 The following are some of the general aspects of the system that this install
 will result in:
 - Window Manager: i3
@@ -43,7 +43,7 @@ will result in:
 - Default Editor: Highly Customized Neovim (best editor)
 - Terminal Emulator: kitty
 
-## Non-Standard Aspects of Dot Files
+## :memo: Non-Standard Aspects of Dot Files
 These files set up the working environment that I use for my daily work
 activites. The following are some system commends (mod is windows key in my
 config):
@@ -77,6 +77,16 @@ these are in the bashrc and in some of the files under `config/`):
   base text inserted. See source code.
 - Terminal Script Function `simple_latex` - Makes a basic latex project. See
   source code.
+
+# :sparkles: Some Credits
+- Under the directory `i3/scripts` There is an array of scripts that I borrowed
+  from the EndevourOS project. The config files here currently use the CPU one.
+- The background picture is thanks to Matthew Henry, and
+[this website](https://unsplash.com/s/photos/natural)
+
+To my knowledge these are the credits I should make for this package, if I
+accidentally borrowed a file from anyone and did not accredit properly here,
+please let me know and I will give proper credit.
 
 # Other Notes
 Note that kitty will complain because of the bashrc. I have a custom terminal
