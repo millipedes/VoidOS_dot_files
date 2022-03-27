@@ -43,6 +43,7 @@ will result in:
 - Default Editor: Highly Customized Neovim (best editor)
 - Terminal Emulator: kitty
 
+## Non-Standard Aspects of Dot Files
 These files set up the working environment that I use for my daily work
 activites. The following are some system commends (mod is windows key in my
 config):
@@ -61,6 +62,21 @@ config):
 
 This makes switching workspaces fast once you get used to it.
 
+Additionally, here are some bash scripts that I wrote that I use (the source for
+these are in the bashrc and in some of the files under `config/`):
+- Terminal Script Function `cdc` - This function changes directory then clears
+  the console
+- Terminal Script Function `cclear` - This function runs two clear commands. I
+  wrote this when I used a different terminal emulator that would clear the
+  console by focusing immediately on the new line (i.e. if you scroll up it
+  would still show you what you cleared) and this bothered me so I wrote this.
+- Terminal Script Function `c_project` - This function sets up a very bare bones
+  c project, see the source code.
+- Terminal Script Function `c_object` - Yes, technically wrong verbiage. This
+  script sets up a <em>.c</em> file and a <em>.h</em> file with the expected
+  base text inserted. See source code.
+- Terminal Script Function `simple_latex` - Makes a basic latex project. See
+  source code.
 
 # Other Notes
 Note that kitty will complain because of the bashrc. I have a custom terminal
