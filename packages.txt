@@ -54,3 +54,5 @@ font-firacode
 pavucontrol
 wpa_gui
 font-awesome
+libavcodec
+ffmpeg
