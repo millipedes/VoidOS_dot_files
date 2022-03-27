@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/tgd/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["vim-moonfly-colors"] = {
+    loaded = true,
+    path = "/home/tgd/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
+    url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
   ["vim-visual-multi"] = {
     loaded = true,
     path = "/home/tgd/.local/share/nvim/site/pack/packer/start/vim-visual-multi",

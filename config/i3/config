@@ -37,7 +37,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+q kill
 
 # Exit-Menu
-bindsym $mod+Shift+e exec shutdown -P now
+bindsym $mod+Shift+e exec poweroff
 
 # Lock by Blurring the Screen (A Script I Borrowed from EnevourOS)
 bindsym $mod+l exec ~/.config/i3/scripts/blur-lock.sh
@@ -96,13 +96,10 @@ set $ws6 ""
 # Start Compositor on Startup
 exec --no-startup-id picom -Gb
 
-# Start networkmanager-applet on Startup
-exec --no-startup-id nm-applet
-
 # Set Wallpaper
 exec --no-startup-id feh --bg-fill ~/Pictures/tanya-grypachevskaya_lava.jpg
 
-exec --no-startup-id wpa_gui
+exec --no-startup-id wpa_gui -t
 
 # Make sure the popups aren't massive
 floating_minimum_size 75   x 50
@@ -137,6 +134,7 @@ set $base03 #fa590b
 set $base06 #8B0000
 
 bar {
+  tray_output primary
   status_command i3blocks -c ~/.config/i3/i3blocks.conf
   colors {
     separator $base01

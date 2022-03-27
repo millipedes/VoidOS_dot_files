@@ -57,6 +57,8 @@ return packer.startup(function(use)
     use "rafamadriz/friendly-snippets"
     use "saadparwaiz1/cmp_luasnip" -- ??? but it makes it work ig
 
+    use "bluz71/vim-moonfly-colors"
+
     -- tab bar stuff
     -- use {
     --     'romgrk/barbar.nvim',
