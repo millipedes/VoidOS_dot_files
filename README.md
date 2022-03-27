@@ -6,12 +6,12 @@ reasonable way to deploy and share them.
 
 # :floppy_disk: Installation
 :exclamation: Please note, this isnstallation will write over:
-1) `~/.config/i3`
-2) `~/.config/kitty`
-3) `~/.config/nvim`
-4) `~/.config/rofi`
-5) `~/.bashrc`
-6) `~/.xinitrc`
+1. `~/.config/i3`
+2. `~/.config/kitty`
+3. `~/.config/nvim`
+4. `~/.config/rofi`
+5. `~/.bashrc`
+6. `~/.xinitrc`
 
 If you wish to back these up, do it before running the install script!
 
@@ -33,6 +33,16 @@ I will say that on a fresh install of base void linux, it is unlikely for
 this script to fail or cause any problems (at least on all my machines).
 
 # :sunny: Explanation of Dot Files
+
+## Summary
+The following are some of the general aspects of the system that this install
+will result in:
+- Window Manager: i3
+- NetworkInterface: wpa_gui
+- Bar: i3blocks
+- Default Editor: Highly Customized Neovim (best editor)
+- Terminal Emulator: kitty
+
 These files set up the working environment that I use for my daily work
 activites. The following are some system commends (mod is windows key in my
 config):
