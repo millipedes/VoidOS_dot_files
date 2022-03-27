@@ -1,11 +1,18 @@
+# Red Void
+![testimage](./Pictures/test_image.png)
+The above is a screenshot of these files applied to a Lenovo T520 Laptop.  I
+have been writing a number of these files for a while and wanted to make a
+reasonable way to deploy and share them.
+
 # :floppy_disk: Installation
-:exclamation: Please note, this isnstallation will write over `~/.config/`:
-1) `i3`
-2) `kitty`
-3) `nvim`
-4) `rofi`
-and it will write over `~/.bashrc` and `~/.xinitrc`. If you wish to back these
-up, do it before installing this package!
+:exclamation: Please note, this isnstallation will write over:
+1) `~/.config/i3`
+2) `~/.config/kitty`
+3) `~/.config/nvim`
+4) `~/.config/rofi`
+5) `~/.bashrc`
+6) `~/.xinitrc`
+If you wish to back these up, do it before running the install script!
 
 Additionally note, the packages that will be installed are in `packages.txt`.
 This is bi-implicational though, so for your personal installation, please edit
@@ -27,9 +34,6 @@ this script to fail or cause any problems).
 I will attempt to give a good idea about what these dot files do here. I do not
 claim to have the perfect method of system management, but I have customized
 these settings for a long time and I notice that I perform best with them.
-
-Here is an image of a fresh install on a Lenovo Thinkpad T520:
-![testimage](./Pictures/test_image.png)
 
 These files set up the working environment that I use for my daily work
 activites. The following are some system commends (mod is windows key in my
