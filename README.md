@@ -12,6 +12,7 @@ reasonable way to deploy and share them.
 4. `~/.config/rofi`
 5. `~/.bashrc`
 6. `~/.xinitrc`
+7. A lot of neovim stuff, my neovim config is pretty customized
 
 If you wish to back these up, do it before running the install script!
 
@@ -28,6 +29,10 @@ needs, installation is completed using:
 ```
 sudo install.sh
 ```
+
+Note, the first time you open neovim it will start writing packages to the disk
+(from github, see neovim config). Close it and reopen it and it will look a lot
+better as the packages will have been installed.
 
 I will say that on a fresh install of base void linux, it is unlikely for
 this script to fail or cause any problems (at least on all my machines).
@@ -84,7 +89,9 @@ these are in the bashrc and in some of the files under `config/`):
 - Under the directory `i3/scripts` There is an array of scripts that I borrowed
   from the EndevourOS project. The config files here currently use the CPU one.
 - The background picture is thanks to Matthew Henry, and
-[this website](https://unsplash.com/s/photos/natural)
+[this website](https://unsplash.com/s/photos/natural).
+- My neovim configuration is largely based off Chris @ Machine's YouTube video
+  series: <em>Neovim IDE from Scratch.</em>
 
 To my knowledge these are the credits I should make for this package, if I
 accidentally borrowed a file from anyone and did not accredit properly here,
