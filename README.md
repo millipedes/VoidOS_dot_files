@@ -48,17 +48,19 @@ These files set up the working environment that I use for my daily work
 activites. The following are some system commends (mod is windows key in my
 config):
 
-| Command      |           Usage          |
-|--------------|--------------------------|
-|`mod+z`       | Switch to workspace 1    |
-|`mod+x`       | Switch to workspace 2    |
-|`mod+c`       | Switch to workspace 3    |
-|`mod+v`       | Switch to workspace 4    |
-|`mod+b`       | Switch to workspace 5    |
-|`mod+n`       | Switch to workspace 6    |
-|`mod+q`       | Quit Current Window      |
-|`mod+Enter`   | Start New Kitty Terminal |
-|`mod+w`       | Start Firefox            |
+| Command              |           Usage          |
+|----------------------|--------------------------|
+|`mod+z`               | Switch to workspace 1    |
+|`mod+x`               | Switch to workspace 2    |
+|`mod+c`               | Switch to workspace 3    |
+|`mod+v`               | Switch to workspace 4    |
+|`mod+b`               | Switch to workspace 5    |
+|`mod+n`               | Switch to workspace 6    |
+|`mod+q`               | Quit Current Window      |
+|`mod+Enter`           | Start New Kitty Terminal |
+|`mod+w`               | Start Firefox            |
+|`mod+arrowkeys`       | Move Focus               |
+|`mod+Shift+arrowkeys` | Move Active Window       |
 
 This makes switching workspaces fast once you get used to it.
 
