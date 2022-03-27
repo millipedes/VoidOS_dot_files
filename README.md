@@ -16,13 +16,13 @@ reasonable way to deploy and share them.
 If you wish to back these up, do it before running the install script!
 
 The installation script installs all programs specified in packages.txt using
-the `xbps-install` command. In order to best fir your needs, you can edit this
+the `xbps-install` command. In order to best fit your needs, you can edit this
 file to reflect what packages you want (one common thing that I do not have is
 any graphics drivers, please see the
 [void docs](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/index.html)
 to see if you need any).
 
-<em>When you have backed up your files<\em> and edited packages.txt to fit your
+<em>When you have backed up your files</em> and edited packages.txt to fit your
 needs, installation is completed using:
 
 ```
