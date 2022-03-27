@@ -45,6 +45,8 @@ bindsym $mod+l exec ~/.config/i3/scripts/blur-lock.sh
 # Restart i3 Inplace
 bindsym $mod+Shift+r restart
 
+bindsym $mod+w exec firefox
+
 # Backlight control
 bindsym XF86MonBrightnessUp exec xbacklight +10
 bindsym XF86MonBrightnessDown exec xbacklight -10
@@ -127,11 +129,11 @@ client.urgent		        $urgentred	$urgentred	$white $bestblue	$yellowbrown
 
 
 # Eigengrau
-set $base01 #000000
+set $base01 #001111
 # RTJ RED
-set $base03 #fa590b
+set $base03 #ff7171
 # LIGHT BLUE
-set $base06 #8B0000
+set $base06 #c91b01
 
 bar {
   tray_output primary
