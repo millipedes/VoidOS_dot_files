@@ -1,5 +1,6 @@
 arandr
 asciiquarium
+blender
 evince
 feh
 ffmpeg
