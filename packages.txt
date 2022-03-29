@@ -1,5 +1,6 @@
 arandr
 asciiquarium
+bash-completion
 blender
 evince
 feh

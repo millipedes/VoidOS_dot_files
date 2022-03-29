@@ -9,6 +9,9 @@ _set_my_PS1() {
 _set_my_PS1
 unset -f _set_my_PS1
 
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+    . /usr/share/bash-completion/bash_completion
+
 alias l='ls --color=auto'						# lazy ls
 alias ll='ls -alhF --color=auto'		# ls++
 alias opal='evince'								  # pdfs
@@ -37,6 +40,12 @@ source ~/.config/bash_scripts/functions/c_project.sh
 source ~/.config/bash_scripts/functions/c_object.sh
 source ~/.config/bash_scripts/functions/simple_latex.sh
 #---------------------------------------------------------------
+
+readonly LIN=~/Documents/nmt/2021-2022/semester2/math454/
+readonly STO=~/Documents/nmt/2021-2022/semester2/math486/
+readonly AOS=~/Documents/nmt/2021-2022/semester2/cse489/
+readonly ARC=~/Documents/nmt/2021-2022/semester2/cse331/
+readonly SE=~/Documents/nmt/2021-2022/semester2/cse326/
 
 # My C program for Easy Loading Terminal Art
 ~/.config/millipedes-terminal-rice/terminal_startup_rice \
